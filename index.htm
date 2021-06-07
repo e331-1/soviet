@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>404 Not Found</title>
+</head>
+
+<body bgcolor="silver">
+    <div id="main">
+        <!--<input type="image" alt="&#x262D;" id="mainbutton"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hammer_and_sickle.svg/1024px-Hammer_and_sickle.svg.png"
+            onclick="play()">-->
+        <div id="content">
+            <h1>
+                404 Not Found
+            </h1>
+            <hr>
+            このページは存在しないぜ!<br>
+            urlを見直してみてね!<br><br><br><p id='l'></p>
+        </div>
+        <div id="soviet">
+            <div id="mainbutton" onclick="play()"></div>
+            <div id="stop" onclick="stop()">
+                <span>■</span>
+            </div>
+            <div id="select">
+                <div class="selectbutton" id="back" onclick="back()">◀</div>
+                <span id="now"></span>
+                <div class="selectbutton" id="next" onclick="next()">▶</div>
+            </div>
+            <audio id="audio">残念だが、君のブラウザは対応していないようだ。自分でなんとかしてください。</audio>
+        </div>
+    </div>
+</body>
+<style>
+</style>
+<script src="script.js"></script>
+
+</html>
