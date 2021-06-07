@@ -1,0 +1,151 @@
+#content{
+    background-color: silver;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    height: 310px;
+    width: 210px;
+    float: left;
+}
+#main {
+    width: 0 auto;
+    background-color: silver;
+    width: 500px;
+    padding: 10px;
+    height: 330px;
+    box-shadow: 0px 10px 20px #000;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+}
+#soviet {
+width: 0 auto;
+background-color: white;
+width: 210px;
+padding: 10px;
+height: 310px;
+box-shadow: 0px 10px 20px #000;
+border-radius: 10px;
+
+margin: auto;
+display: inline-block;
+float: right;
+}
+@media screen and (max-width: 550px) {
+    #main {
+
+    background-color: silver;
+    width: 230px;
+    padding: 10px;
+    box-shadow: 0px 10px 20px #000;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 550px;
+}
+#content{
+    background-color: silver;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    height: 200px;
+}
+#soviet {
+    width: 0 auto;
+    background-color: white;
+    width: 210px;
+    padding: 10px;
+    height: 310px;
+    box-shadow: 0px 10px 20px #000;
+    border-radius: 10px;
+
+    margin: auto;
+    display: inline-block;
+}
+}
+
+
+
+#stop {
+    background-color: silver;
+    font-size: 30px;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+}
+#select{
+    background-color: silver;
+    font-size: 15px;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+#mainbutton {
+    width: 180px;
+    /* ※縦横を同値に */
+    height: 180px;
+    /* ※縦横を同値に */
+    border-radius: 50%;
+    /* 角丸半径を50%にする(=円形にする) */
+    box-shadow: 0px 10px 20px #000;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    background: silver;
+    /*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 10px dimgray;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hammer_and_sickle.svg/1024px-Hammer_and_sickle.svg.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+
+}
+
+#mainbutton:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+
+    margin-top: 10px;
+    /*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    /*影を小さく*/
+    border-bottom: none;
+}
+.selectbutton {
+    width: 40px;
+    /* ※縦横を同値に */
+    height: 40px;
+    /* ※縦横を同値に */
+    border-radius: 50%;
+    /* 角丸半径を50%にする(=円形にする) */
+    box-shadow: 0px 5px 5px #000;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    
+    background: white;
+    font-size: 30px;
+
+}
+
+.selectbutton:active {
+    /*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    /*影を小さく*/
+    margin-top: 3px;
+}
+
+b{
+    font-size: 120%;
+}
